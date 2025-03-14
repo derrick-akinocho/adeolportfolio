@@ -1,0 +1,65 @@
+.contact_card {
+    width: 70%;
+    height: 580px;
+    background-color: var(--lightGrey);
+    color: var(--blackLow);
+    border-radius: 16px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 4px 4px 10px var(--blackLight);
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.contact_card img {
+    text-align: right;
+}
+
+.formContact{
+    width: 60%;
+    text-align: left;
+    padding:0 25px;
+}
+
+.formContact .title{
+    text-align: left;
+}
+
+label {
+    font-family: "Dubai", serif;
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+textarea{
+    height: 120px;
+}
+
+input, textarea{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--blackLow);
+    color: var(--white);
+}
+
+button {
+    width: 65%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--secondary);
+    color: var(--white);
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Dubai", serif;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: var(--primary);
+}

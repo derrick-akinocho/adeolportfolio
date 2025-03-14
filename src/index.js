@@ -1,17 +1,47 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import {createBrowserRouter, Outlet, RouterProvider} from "react-router-dom";
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
+import Home from "./pages/home";
+import Page404 from "./pages/404";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+const Layout = () => (
+    <>
+      <Header classname="header" />
+      <div className="main-content">
+        <Outlet/>
+      </div>
+      <Footer classname="footer" />
+    </>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+const router = createBrowserRouter([
+  {
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "*",
+        element: <Page404 />,
+      },
+    ],
+  },
+  {
+    path: '*',
+    element: <Page404 />,
+  },
+]);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+
+    <React.StrictMode>
+        <RouterProvider router={router} />
+    </React.StrictMode>
+);

@@ -1,0 +1,35 @@
+.header {
+    z-index: 1000;
+    display: grid;
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    margin: 15px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo {
+    scale: 1.4;
+    display: flex;
+    justify-content: center;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.logo img {
+    height: 80%;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .header {
+        grid-template-areas: "logo menu-toggle" "nav nav";
+    }
+
+    .logo {
+        scale: 0.9;
+    }
+
+}

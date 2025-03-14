@@ -1,0 +1,44 @@
+.icon {
+    position: absolute;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    background-color: var(--grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 4px solid var(--blackLight);
+}
+
+.experience_card {
+    max-width: 350px;
+    background: var(--grey);
+    color: var(--lightGrey);
+    padding: 20px;
+    text-align: left;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 4px 8px var(--floatblackBoxShadowLow);
+}
+
+.job-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.company {
+    text-align: left;
+    color: var(--blackLight);;
+    font-size: 1rem;
+}
+
+.date {
+    text-align: left;
+    font-family: Consolas, serif;
+    font-size: 15px;
+    color: var(--blackLight);
+}

@@ -1,0 +1,34 @@
+.realisation_card {
+    flex: 1 1 300px;
+    max-width: 600px;
+    min-width: 540px;
+    border-radius: 8px;
+    padding: 16px;
+    height: auto;
+    text-align: left;
+    box-shadow: 5px 4px 10px var(--floatblackBoxShadow);
+    background-color: var(--grey);
+    color: var(--lightGrey);
+}
+
+.realisation_card .buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.realisation_card .name {
+    text-align: left;
+    font-family: "Cascadia Code", serif;
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.realisation_card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.realisation_card Button {
+    margin-bottom: 25px;
+}

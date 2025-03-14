@@ -1,0 +1,35 @@
+.skills_card {
+    width: 150px;
+    background: var(--grey);
+    color: var(--lightGrey);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    box-shadow: 0 4px 8px var(--floatblackBoxShadowLow);
+}
+
+.skills_card .title {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--blackLight);
+    font-weight: bold;
+    font-family: Consolas, serif;
+    font-size: 14px;
+}
+
+.skills_card .img{
+    font-family: Consolas, serif;
+    font-size: 14px;
+    color: var(--blackLight);
+    text-align: center;
+}
+
+.skills_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 5px 6px 2px var(--floatblackBoxShadowLow);
+    .title_edu {
+        color: var(--primary);
+    }
+}

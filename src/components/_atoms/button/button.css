@@ -1,0 +1,30 @@
+.button_content {
+    display: block;
+    margin: 35px 0;
+    position: relative;
+}
+
+.myButton {
+    width: 100%;
+    background: var(--floatBlack);
+    letter-spacing: 1px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--blackLight);
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+    border: none;
+}
+
+.myButton:hover {
+    transform: translateY(-3px);
+    box-shadow: 2px 5px 6px 2px var(--floatblackBoxShadowLow);
+}
+
+.myButton:active {
+    transform: scale(0.99);
+}

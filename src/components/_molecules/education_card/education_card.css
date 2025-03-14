@@ -1,0 +1,33 @@
+.education_card {
+    width: 250px;
+    background: var(--grey);
+    color: var(--lightGrey);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    box-shadow: 0 4px 8px var(--floatblackBoxShadowLow);
+}
+
+.title_edu {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.date_edu{
+    font-family: Consolas, serif;
+    font-size: 15px;
+    color: var(--blackLight);
+    text-align: center;
+}
+
+.education_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 5px 6px 2px var(--floatblackBoxShadowLow);
+    .title_edu {
+        color: var(--primary);
+    }
+}

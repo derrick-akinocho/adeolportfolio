@@ -1,0 +1,113 @@
+.profile-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--blackLow);
+    color: var(--lightGrey);
+    padding: 30px 25px;
+    border-radius: 16px;
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+    box-shadow: 5px 4px 10px var(--floatblackBoxShadow);
+}
+
+.description {
+    font-size: 18px;
+    text-align: left;
+    width: 90%;
+    font-family: "Roboto", serif;
+    color: var(--lightGrey);
+}
+
+.location {
+    font-family: "Consolas", serif;
+    font-size: 15px;
+    color: var(--blackLight);
+}
+
+.profile-card p {
+    text-align: left;
+    margin: 12px 0;
+}
+
+.title {
+    font-family: "Cascadia Code", serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-family: "Cascadia Code", serif;
+    font-weight: bold;
+    color: var(--secondary);
+}
+
+.social-container .social-link {
+    display: inline-block;
+    background-color: var(--floatBlack);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    border: 1px solid var(--floatBlack);
+    text-decoration: none;
+}
+
+.social-container .social-link:hover {
+    background-color: var(--secondary);
+}
+
+.info-container {
+    padding-top: 30px;
+    margin-left: 30px;
+    flex: 1;
+    text-align: left;
+}
+
+.info-container Button {
+    width: 250px;
+    color: var(--lightGrey);
+    background-color: var(--floatBlack);
+}
+
+.skills {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--white);
+    font-weight: bold;
+    font-family: Consolas, serif;
+    background-color: var(--primary);
+    font-size: 14px;
+}
+
+.social-container {
+    flex: 0 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.social-link {
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.1s ease;
+}
+
+.social-link:hover {
+    color: var(--secondary);
+}
