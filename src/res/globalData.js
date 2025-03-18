@@ -62,7 +62,7 @@ export const educations = [
         title: "Bachelor Concepteur Développeur d'Applications CDEV",
         company: "IPI Groupe IGENSIA - Lyon",
         linkCompany: "https://www.ipi-ecoles.com/",
-        date: "Septembres 2023 - Présent"
+        date: "Septembre 2023 - Présent"
     },
 ];
 

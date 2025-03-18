@@ -11,16 +11,6 @@ import ContactCard from "../../components/_molecules/contact_card";
 
 const Home = () => {
 
-    const [anchor, setAnchor] = React.useState(null);
-
-    const handleClick = (event) => {
-        setAnchor(anchor ? null : event.currentTarget);
-    };
-
-    const open = Boolean(anchor);
-    const id = open ? 'simple-popper' : undefined;
-
-
     const scrollToBottom = () => {
         window.scrollTo({
             top: document.documentElement.scrollHeight, // Ou document.body.scrollHeight
@@ -39,7 +29,7 @@ const Home = () => {
 
             <section className="section_realisations">
 
-                <img className="chat2" aria-describedby={id}
+                <img className="chat2"
                      onClick={()=>alert("Mr Chat 🐾 : Je ne suis qu’un chat parmi d’autres, mais mes réalisations " +
                          "sont des chefs-d’œuvre… enfin, presque. Disons qu’elles ont du poil aux pattes.")}
                      src={"https://i.ibb.co/4wrwXXpv/chat2.png"} alt="Mr Chat"/>
@@ -76,7 +66,7 @@ const Home = () => {
                          "à chasser les bugs… et parfois les souris. Chaque projet est une aventure, " +
                          "mais je garde toujours une patte de secours..")}
                      src={"https://i.ibb.co/Z6vkkdpj/chat3.png"} alt="Mr Chat"/>
-                <p className="section_title"> EXPERIENCE </p>
+                <p className="section_title"> EXPERIENCES </p>
 
                 <p className="section_desc"> Alliant créativité et compétences techniques, je contribue à la conception
                     de solutions web

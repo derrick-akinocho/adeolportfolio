@@ -31,12 +31,15 @@
     margin: 50px;
 }
 
+.section_profile {
+    position: relative;
+}
+
 .chat1 {
     position: absolute;
     right: 2%;
-    top: 29%;
+    bottom: 99.7%;
     cursor: pointer;
-    z-index: 1000;
     width: min(100%, 180px);
     height: auto;
     transform: translate(-5%, -1%);
