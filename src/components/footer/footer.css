@@ -58,7 +58,15 @@
 
 @media (max-width: 768px) {
     .footer {
-        padding: 20px 20px;
+        padding: 20px;
+    }
+
+    .chat6 {
+        display: none;
+    }
+
+    .footer_social {
+        gap: 30px;
     }
 }
 
@@ -67,4 +75,11 @@
         padding: 10px;
     }
 
+    .chat6 {
+        display: none;
+    }
+
+    .footer_social {
+        gap: 30px;
+    }
 }

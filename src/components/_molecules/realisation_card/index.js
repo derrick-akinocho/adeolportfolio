@@ -20,7 +20,7 @@ function RealisationCard ({name, skills, picture, alt, description, link, gitLin
             <p className="description">{description}</p>
 
             <div className="buttons">
-                <Button href={link} title="Voir la démo"/>
+                <Button href={link} title="Démo"/>
                 <Button href={gitLink} icon={faGithub} title="Projet Git"/>
             </div>
 

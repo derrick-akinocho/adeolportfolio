@@ -28,3 +28,19 @@
 .myButton:active {
     transform: scale(0.99);
 }
+
+@media (max-width: 768px) {
+   .myButton {
+       font-size: 16px;
+       width: 80%;
+       padding: 10px;
+   }
+}
+
+@media (max-width: 480px) {
+    .myButton {
+        font-size: 16px;
+        width: 80%;
+        padding: 10px;
+    }
+}

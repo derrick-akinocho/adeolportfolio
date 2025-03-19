@@ -63,3 +63,45 @@ button {
 button:hover {
     background-color: var(--primary);
 }
+
+
+@media (max-width: 768px) {
+    .contact_card {
+        padding: 10px;
+        display: block;
+        width: 80%;
+    }
+
+    .formContact {
+        width: 100%;
+    }
+
+    .contact_card img {
+        display: none;
+    }
+
+    input, textarea{
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .contact_card {
+        padding: 10px;
+        display: block;
+        width: 80%;
+    }
+
+    .formContact {
+        width: 100%;
+    }
+
+    .contact_card img {
+        display: none;
+    }
+
+    input, textarea{
+        width: 80%;
+    }
+}

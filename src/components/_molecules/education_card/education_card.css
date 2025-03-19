@@ -31,3 +31,27 @@
         color: var(--primary);
     }
 }
+
+
+@media (max-width: 768px) {
+
+    .title_edu {
+        font-size: 1rem;
+    }
+
+    .date_edu{
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .title_edu {
+        font-size: 1rem;
+    }
+
+    .date_edu{
+        font-size: 14px;
+    }
+}

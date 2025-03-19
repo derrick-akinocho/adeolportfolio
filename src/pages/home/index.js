@@ -117,7 +117,7 @@ const Home = () => {
 
                 <p className="section_title"> SKILLS </p>
 
-                <div className="educations_container">
+                <div className="skills_container">
 
                     {
                         skills.map((skill, index) => (

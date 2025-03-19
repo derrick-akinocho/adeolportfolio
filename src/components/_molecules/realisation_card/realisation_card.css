@@ -1,7 +1,6 @@
 .realisation_card {
     flex: 1 1 300px;
     max-width: 600px;
-    min-width: 540px;
     border-radius: 8px;
     padding: 16px;
     height: auto;
@@ -31,4 +30,29 @@
 
 .realisation_card Button {
     margin-bottom: 25px;
+}
+
+
+@media (max-width: 768px) {
+    .realisation_card {
+        .buttons {
+            gap: 5px;
+        }
+
+    }
+    .realisation_card .name {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .realisation_card {
+        .buttons {
+            gap: 5px;
+        }
+    }
+    .realisation_card .name {
+        font-size: 20px;
+    }
+
 }

@@ -42,3 +42,34 @@
     font-size: 15px;
     color: var(--blackLight);
 }
+
+@media (max-width: 768px) {
+
+    .icon {
+       display: none;
+    }
+
+    .job-title {
+        font-size: 1rem;
+    }
+
+    .date {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .icon {
+        display: none;
+    }
+
+    .job-title {
+        font-size: 1rem;
+    }
+
+    .date {
+        font-size: 14px;
+    }
+}
